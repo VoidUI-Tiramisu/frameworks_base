@@ -33,4 +33,7 @@
 
     <!-- Auto Brightness QS tile -->
     <string name="quick_settings_autobrightness_label">Auto brightness</string>
+
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">CPU Info</string>
 </resources>
