@@ -1,5 +1,6 @@
 package com.android.systemui.custom
 
+import com.android.systemui.qs.tiles.DataSwitchTile
 import com.android.systemui.qs.tileimpl.QSTileImpl
 import com.android.systemui.qs.tiles.PowerShareTile
 import com.android.systemui.qs.tiles.CellularTile
@@ -99,4 +100,10 @@ interface CustomQSModule {
     @IntoMap
     @StringKey(AntiFlickerTile.TILE_SPEC)
     fun bindAntiFlickerTile(antiFlickerTile: AntiFlickerTile): QSTileImpl<*>
+
+    /** Inject DataSwitchTile into tileMap in QSModule */
+    @Binds
+    @IntoMap
+    @StringKey(DataSwitchTile.TILE_SPEC)
+    fun bindDataSwitchTile(dataSwitchTile: DataSwitchTile): QSTileImpl<*>
 }
