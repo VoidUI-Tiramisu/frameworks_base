@@ -4,5 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-
+    <!-- Light / Regular style fonts -->
+    <java-symbol type="string" name="config_lightFontFamily" />
+    <java-symbol type="string" name="config_regularFontFamily" />
 </resources>
