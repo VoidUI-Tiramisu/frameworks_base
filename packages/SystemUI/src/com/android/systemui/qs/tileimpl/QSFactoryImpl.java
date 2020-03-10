@@ -49,6 +49,7 @@ import com.android.systemui.qs.tiles.DndTile;
 import com.android.systemui.qs.tiles.DreamTile;
 import com.android.systemui.qs.tiles.FlashlightTile;
 import com.android.systemui.qs.tiles.HeadsUpTile;
+import com.android.systemui.qs.tiles.FPSInfoTile;
 import com.android.systemui.qs.tiles.HotspotTile;
 import com.android.systemui.qs.tiles.InternetTile;
 import com.android.systemui.qs.tiles.LiveDisplayTile;
@@ -127,6 +128,7 @@ public class QSFactoryImpl implements QSFactory {
     private final Provider<DataSwitchTile> mDataSwitchTileProvider;
     private final Provider<AutoBrightnessTile> mAutoBrightnessTileProvider;
     private final Provider<CPUInfoTile> mCPUInfoTileProvider;
+    private final Provider<FPSInfoTile> mFPSInfoTileProvider;
 
     private final Lazy<QSHost> mQsHostLazy;
     private final Provider<CustomTile.Builder> mCustomTileBuilderProvider;
@@ -178,7 +180,8 @@ public class QSFactoryImpl implements QSFactory {
             Provider<AntiFlickerTile> antiFlickerTileProvider,
             Provider<DataSwitchTile> dataSwitchTileProvider,
             Provider<AutoBrightnessTile> autoBrightnessTileProvider,
-            Provider<CPUInfoTile> cpuInfoTileProvider) {
+            Provider<CPUInfoTile> cpuInfoTileProvider,
+            Provider<FPSInfoTile> fpsInfoTileProvider) {
         mQsHostLazy = qsHostLazy;
         mCustomTileBuilderProvider = customTileBuilderProvider;
 
@@ -226,6 +229,7 @@ public class QSFactoryImpl implements QSFactory {
         mDataSwitchTileProvider = dataSwitchTileProvider;
         mAutoBrightnessTileProvider = autoBrightnessTileProvider;
         mCPUInfoTileProvider = cpuInfoTileProvider;
+        mFPSInfoTileProvider = fpsInfoTileProvider;
     }
 
     /** Creates a tile with a type based on {@code tileSpec} */
@@ -330,6 +334,8 @@ public class QSFactoryImpl implements QSFactory {
                 return mAutoBrightnessTileProvider.get();
             case "cpuinfo":
                 return mCPUInfoTileProvider.get();
+            case "fpsinfo":
+                return mFPSInfoTileProvider.get();
         }
         // Custom tiles
         if (tileSpec.startsWith(CustomTile.PREFIX)) {
