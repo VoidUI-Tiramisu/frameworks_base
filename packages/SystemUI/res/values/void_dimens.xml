@@ -6,4 +6,7 @@
 <resources>
     <!-- Maximum vertical offset of statusbar for burn-in protection -->
     <dimen name="status_bar_offset_max_y">4dp</dimen>
+
+    <!-- FPSInfoService FPS Info text padding -->
+    <dimen name="fps_info_text_padding">4dp</dimen>
 </resources>
