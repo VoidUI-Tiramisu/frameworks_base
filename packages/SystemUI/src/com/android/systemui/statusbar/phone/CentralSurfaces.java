@@ -34,6 +34,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.window.SplashScreen;
 
+import com.android.systemui.statusbar.policy.GameSpaceManager;
+
 import androidx.annotation.NonNull;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleOwner;
@@ -537,6 +539,8 @@ public interface CentralSurfaces extends Dumpable, ActivityStarter, LifecycleOwn
     float getDisplayDensity();
 
     void extendDozePulse();
+
+    GameSpaceManager getGameSpaceManager();
 
     boolean shouldDelayWakeUpAnimation();
 
