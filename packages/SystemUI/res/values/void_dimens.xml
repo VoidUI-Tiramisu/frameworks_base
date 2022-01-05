@@ -6,4 +6,7 @@
 <resources>
     <!-- Screen Record -->
     <dimen name="screenrecord_dot_size">48dp</dimen>
+
+    <!-- FPS Info tile -->
+    <dimen name="fps_info_text_padding">4dp</dimen>
 </resources>
