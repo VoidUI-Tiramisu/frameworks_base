@@ -31,4 +31,7 @@
 
     <!-- Enforce DisplayModeDirector to select user preferred resolution -->
     <bool name="config_forceToUseSelectedResolution">false</bool>
+
+    <!-- Whether to force enable multi resolution configuration for camera -->
+    <bool name="config_forceMultiResolution">false</bool>
 </resources>

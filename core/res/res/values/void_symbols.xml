@@ -13,4 +13,7 @@
 
     <!-- Enforce DisplayModeDirector to select user preferred resolution -->
     <java-symbol type="bool" name="config_forceToUseSelectedResolution" />
+
+    <!-- Whether to force enable multi resolution configuration for camera -->
+    <java-symbol type="bool" name="config_forceMultiResolution" />
 </resources>
