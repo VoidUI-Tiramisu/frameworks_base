@@ -11841,6 +11841,13 @@ public final class Settings {
         }
 
         /**
+         * Control whether FLAG_SECURE is ignored for all windows.
+         * @hide
+         */
+        @Readable
+        public static final String WINDOW_IGNORE_SECURE = "window_ignore_secure";
+
+        /**
          * Secure settings which can be accessed by instant apps.
          * @hide
          */
