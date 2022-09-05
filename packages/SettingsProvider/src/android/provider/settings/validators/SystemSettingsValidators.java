@@ -320,5 +320,6 @@ public class SystemSettingsValidators {
                         return new InclusiveIntegerRangeValidator(0, 1000).validate(item);
                     }
                 });
+        VALIDATORS.put(System.SHOW_APP_VOLUME, BOOLEAN_VALIDATOR);
     }
 }
