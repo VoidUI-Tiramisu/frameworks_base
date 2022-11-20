@@ -114,6 +114,8 @@ public class PixelPropsUtils {
 
     private static final Map<String, Object> propsToChangeMI11;
     private static final String[] packagesToChangeMI11 = {
+            "com.ea.gp.apexlegendsmobilefps",
+            "com.levelinfinite.hotta.gp",
             "com.mobile.legends"
     };
 
