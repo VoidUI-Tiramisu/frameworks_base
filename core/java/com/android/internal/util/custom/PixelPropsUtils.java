@@ -24,11 +24,14 @@ import android.app.Application;
 import android.app.TaskStackListener;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.res.Resources;
 import android.os.Binder;
 import android.os.Build;
 import android.os.Process;
 import android.os.SystemProperties;
 import android.util.Log;
+
+import com.android.internal.R;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -45,6 +48,7 @@ public class PixelPropsUtils {
     private static final String PACKAGE_GMS = "com.google.android.gms";
     private static final ComponentName GMS_ADD_ACCOUNT_ACTIVITY = ComponentName.unflattenFromString(
             "com.google.android.gms/.auth.uiflows.minutemaid.MinuteMaidActivity");
+    private static final String PACKAGE_NETFLIX = "com.netflix.mediaclient";
 
     private static final boolean DEBUG = false;
 
@@ -111,6 +115,9 @@ public class PixelPropsUtils {
     };
 
     private static volatile boolean sIsGms, sIsFinsky, sIsPhotos;
+
+    private static final String sNetflixModel =
+            Resources.getSystem().getString(R.string.config_netflixSpoofModel);
 
     static {
         propsToKeep = new HashMap<>();
@@ -218,6 +225,9 @@ public class PixelPropsUtils {
                 propsToChange.putAll(propsToChangePixelXL);
             } else if (isPixelDevice) {
                 return;
+            } else if (!sNetflixModel.isEmpty() && packageName.equals(PACKAGE_NETFLIX)) {
+                dlog("Setting model to " + sNetflixModel + " for Netflix");
+                setPropValue("MODEL", sNetflixModel);
             } else {
                 if (Arrays.asList(packagesToChangePixel7Pro).contains(packageName)) {
                     propsToChange.putAll(propsToChangePixel7Pro);
