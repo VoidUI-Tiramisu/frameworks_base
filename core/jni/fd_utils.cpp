@@ -48,6 +48,13 @@ static const char* kPathAllowlist[] = {
         "/dev/dri/renderD129", // Fixes b/31172436
         "/dev/stune/foreground/tasks",
         "/dev/blkio/tasks",
+        // VoidUI ADD: Start
+        "/system/priv-app/FaceUnlockService/FaceUnlockService.apk",
+        "/system/framework/framework-res/framework-res.apk",
+        "/system_ext/priv-app/GameSpace/GameSpace.apk",
+        "/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk",
+        "/system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk",
+        // End
 };
 
 static const char kFdPath[] = "/proc/self/fd";
