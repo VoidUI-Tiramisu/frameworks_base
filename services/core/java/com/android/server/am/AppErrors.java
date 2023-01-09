@@ -1085,6 +1085,13 @@ class AppErrors {
             if (!proc.isPersistent()) {
                 packageList = proc.getPackageListWithVersionCode();
             }
+            if (errState.isInputResumed()) {
+                Slog.i(TAG, "App input dispatching already resumed: " + proc);
+                errState.setNotResponding(false);
+                errState.setNotRespondingReport(null);
+                errState.setInputResumed(false);
+                return;
+            }
             if (errState.getDialogController().hasAnrDialogs()) {
                 Slog.e(TAG, "App already has anr dialog: " + proc);
                 MetricsLogger.action(mContext, MetricsProto.MetricsEvent.ACTION_APP_ANR,
@@ -1148,6 +1155,7 @@ class AppErrors {
                 errState.getDialogController().clearAnrDialogs();
             }
             proc.mErrorState.setAnrData(null);
+            proc.mErrorState.setInputResumed(true);
         }
     }
 
