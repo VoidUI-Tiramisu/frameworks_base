@@ -1568,3 +1568,16 @@
     <dimen name="dream_overlay_status_bar_ambient_text_shadow_dy">0.5dp</dimen>
     <dimen name="dream_overlay_status_bar_ambient_text_shadow_radius">2dp</dimen>
 </resources>
+
+<!-- Burning protection status bar -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="horizontal_max_swift">6dp</dimen>
+	<dimen name="vertical_max_swift">6dp</dimen>
+	<dimen name="udfps_burn_in_offset_x">6dp</dimen>
+	<dimen name="udfps_burn_in_offset_y">6dp</dimen>
+	<dimen name="burn_in_prevention_offset_x">40dp</dimen>
+	<dimen name="burn_in_prevention_offset_y">40dp</dimen>
+	<dimen name="burn_in_prevention_offset_y_large_clock">40dp</dimen>
+	<dimen name="default_burn_in_prevention_offset">40dp</dimen>
+</resources>
