@@ -88,7 +88,7 @@ import com.android.systemui.statusbar.phone.LightBarTransitionsController;
 import com.android.systemui.tuner.TunerService;
 import com.android.wm.shell.back.BackAnimation;
 import com.android.wm.shell.pip.Pip;
-
+import com.android.systemui.navigationbar.gestural.NavigationHandle;
 import java.io.PrintWriter;
 import java.util.Map;
 import java.util.Optional;
@@ -161,6 +161,12 @@ public class NavigationBarView extends FrameLayout implements TunerService.Tunab
     private FloatingRotationButton mFloatingRotationButton;
     private RotationButtonController mRotationButtonController;
 
+    private int mBasePaddingBottom;
+    private int mBasePaddingLeft;
+    private int mBasePaddingRight;
+    private int mBasePaddingTop;
+
+    private ViewGroup mNavigationBarContents
     /**
      * Helper that is responsible for showing the right toast when a disallowed activity operation
      * occurred. In pinned mode, we show instructions on how to break out of this mode, whilst in
@@ -282,6 +288,25 @@ public class NavigationBarView extends FrameLayout implements TunerService.Tunab
 
     public NavigationBarView(Context context, AttributeSet attrs) {
         super(context, attrs);
+
+public void shiftNavigationBarItems(int horizontalShift, int verticalShift) {
+        if (mNavigationBarContents == null) {
+            return;
+        }
+        if (isGesturalMode(mNavBarMode)) {
+            final NavigationHandle handle = (NavigationHandle) getHomeHandle().getCurrentView();
+            if (handle != null) {
+                handle.shiftHandle(verticalShift);
+            }
+            return;
+        }
+        mNavigationBarContents.setPaddingRelative(
+            mBasePaddingLeft + horizontalShift,
+            mBasePaddingTop + verticalShift,
+            mBasePaddingRight + horizontalShift,
+            mBasePaddingBottom - verticalShift
+        );
+        invalidate();
 
         final Context darkContext = new ContextThemeWrapper(context,
                 Utils.getThemeAttr(context, R.attr.darkIconTheme));
