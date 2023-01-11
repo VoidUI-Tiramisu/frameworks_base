@@ -27,5 +27,4 @@
 	<bool name="config_enableBurnInProtection">true</bool>
 	<bool name="config_enableSmartPixels">true</bool>
 	<bool name="config_statusBarBurnInProtection">true</bool>
-        <bool name="config_disableStatusBarBurnInProtection">true</
         <bool name="config_disableStatusBarBurnInProtection">true</bool>
