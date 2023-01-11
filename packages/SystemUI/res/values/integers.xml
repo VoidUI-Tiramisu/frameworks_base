@@ -29,3 +29,15 @@
     <!-- The time it takes for the over scroll release animation to complete, in milli seconds.  -->
     <integer name="lockscreen_shade_over_scroll_release_duration">0</integer>
 </resources>
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="config_burnInProtectionMaxVerticalOffset">0</integer>
+	<integer name="config_burnInProtectionMinHorizontalOffset">0</integer>
+	<integer name="config_burnInProtectionMinVerticalOffset">0</integer>
+	<integer name="config_shift_interval">20</integer>
+	<integer name="config_burnInProtectionMaxHorizontalOffset">0</integer>
+	<integer name="config_burnInProtectionMaxRadius">-1</integer>
+</resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
