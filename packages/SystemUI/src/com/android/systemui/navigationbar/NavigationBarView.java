@@ -75,6 +75,7 @@ import com.android.systemui.navigationbar.buttons.KeyButtonDrawable;
 import com.android.systemui.navigationbar.buttons.NearestTouchFrame;
 import com.android.systemui.navigationbar.buttons.RotationContextButton;
 import com.android.systemui.navigationbar.gestural.EdgeBackGestureHandler;
+import com.android.systemui.navigationbar.gestural.NavigationHandle;
 import com.android.systemui.recents.Recents;
 import com.android.systemui.shade.NotificationPanelViewController;
 import com.android.systemui.shared.rotation.FloatingRotationButton;
@@ -160,7 +161,11 @@ public class NavigationBarView extends FrameLayout implements TunerService.Tunab
     private RotationContextButton mRotationContextButton;
     private FloatingRotationButton mFloatingRotationButton;
     private RotationButtonController mRotationButtonController;
-
+    private int mBasePaddingBottom;
+    private int mBasePaddingLeft;
+    private int mBasePaddingRight;
+    private int mBasePaddingTop;
+    private ViewGroup mNavigationBarContents;
     /**
      * Helper that is responsible for showing the right toast when a disallowed activity operation
      * occurred. In pinned mode, we show instructions on how to break out of this mode, whilst in
@@ -291,6 +296,32 @@ public class NavigationBarView extends FrameLayout implements TunerService.Tunab
         mDarkIconColor = Utils.getColorAttrDefaultColor(darkContext, R.attr.singleToneColor);
         mIsVertical = false;
         mLongClickableAccessibilityButton = false;
+        mNavigationBarContents = (ViewGroup) findViewById(R.id.nav_buttons);
+
+        mBasePaddingLeft = mNavigationBarContents.getPaddingStart();
+        mBasePaddingTop = mNavigationBarContents.getPaddingTop();
+        mBasePaddingRight = mNavigationBarContents.getPaddingEnd();
+        mBasePaddingBottom = mNavigationBarContents.getPaddingBottom();
+
+public void shiftNavigationBarItems(int horizontalShift, int verticalShift) {
+        if (mNavigationBarContents == null) {
+            return;
+        }
+        if (isGesturalMode(mNavBarMode)) {
+            final NavigationHandle handle = (NavigationHandle) getHomeHandle().getCurrentView();
+            if (handle != null) {
+                handle.shiftHandle(verticalShift);
+            }
+            return;
+        }
+        mNavigationBarContents.setPaddingRelative(
+            mBasePaddingLeft + horizontalShift,
+            mBasePaddingTop + verticalShift,
+            mBasePaddingRight + horizontalShift,
+            mBasePaddingBottom - verticalShift
+        );
+        invalidate();
+    }
 
         // Set up the context group of buttons
         mContextualButtonGroup = new ContextualButtonGroup(R.id.menu_container);
