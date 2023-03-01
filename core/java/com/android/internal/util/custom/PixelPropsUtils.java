@@ -100,8 +100,7 @@ public class PixelPropsUtils {
     private static final String[] packagesToChangeMI11 = {
             "com.ea.gp.apexlegendsmobilefps",
             "com.levelinfinite.hotta.gp",
-            "com.mobile.legends",
-            "com.tencent.tmgp.sgame"
+            "com.mobile.legends"
     };
 
     private static final String[] packagesToKeep = {
