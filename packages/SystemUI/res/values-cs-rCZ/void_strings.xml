@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">Odstranit</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">Nahrávání obrazovky odstraněno</string>
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">Zobrazit stop tečku</string>
+    <string name="screenrecord_stopdot_summary">Longpress pro přesun</string>
+    <string name="screenrecord_lowquality_label">Nižší kvalita</string>
+    <string name="screenrecord_lowquality_summary">Pro menší velikost souboru</string>
+    <string name="screenrecord_longer_timeout_switch_label">Větší limit velikosti souboru</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Omezení velikosti záznamu na 15 GB</string>
+    <string name="screenrecord_skip_time_label">Přeskočit časovač</string>
+    <string name="screenrecord_skip_time_summary">Odstranění 3sekundového čekání</string>
+    <string name="screenrecord_hevc_switch_label">Povolení HEVC</string>
+    <string name="screenrecord_hevc_switch_summary">Použití efektivnějšího kódování videa HEVC</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Přepínací datová karta</string>
+    <string name="qs_data_switch_toast_0">V současné době není vložena žádná karta SIM</string>
+    <string name="qs_data_switch_toast_1">V současné době je vložena pouze jedna karta SIM</string>
+    <string name="qs_data_switch_text_1">SIM KARTA 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">Přepnutí datové karty na SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Přepnutí datové karty na SIM 2.</string>
+    <!-- Auto Brightness QS tile -->
+    <string name="quick_settings_autobrightness_label">Automatický jas</string>
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">Informace o procesoru</string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">Informace o FPS</string>
+    <!-- FPS view text placeholder -->
+</resources>

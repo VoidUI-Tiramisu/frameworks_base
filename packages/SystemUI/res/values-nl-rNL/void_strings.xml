@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">Verwijder</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">Schermopname verwijderd</string>
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">Toon stop stip</string>
+    <string name="screenrecord_stopdot_summary">Lang indrukken om het te verplaatsen</string>
+    <string name="screenrecord_lowquality_label">Lagere kwaliteit</string>
+    <string name="screenrecord_lowquality_summary">Voor kleinere bestandsgrootte</string>
+    <string name="screenrecord_longer_timeout_switch_label">Grotere bestandsgrootte limiet</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Beperk opnamegrootte tot 15 GB</string>
+    <string name="screenrecord_skip_time_label">Timer overslaan</string>
+    <string name="screenrecord_skip_time_summary">Verwijder 3 seconden wachten</string>
+    <string name="screenrecord_hevc_switch_label">HEVC inschakelen</string>
+    <string name="screenrecord_hevc_switch_summary">Efficiëntere HEVC-videocodering gebruiken</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Gegevenskaart wijzigen</string>
+    <string name="qs_data_switch_toast_0">Momenteel is er geen SIM-kaart geplaatst</string>
+    <string name="qs_data_switch_toast_1">Momenteel is slechts één SIM-kaart geplaatst</string>
+    <string name="qs_data_switch_text_1">SIM 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">Gegevenskaart overgezet naar SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Gegevenskaart overgezet naar SIM 2.</string>
+    <!-- Auto Brightness QS tile -->
+    <string name="quick_settings_autobrightness_label">Automatische helderheid</string>
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">CPU informatie</string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">FPS Info</string>
+    <!-- FPS view text placeholder -->
+</resources>
