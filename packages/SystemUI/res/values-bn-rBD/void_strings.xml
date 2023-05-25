@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">মুছে ফেলা</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">স্ক্রীন রেকর্ডিং মুছে ফেলা হয়েছে</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">ডেটা সিমকার্ড পরিবর্তন</string>
+    <string name="qs_data_switch_toast_0">বর্তমানে ফোনে কোন সিম কার্ড নেই</string>
+    <string name="qs_data_switch_toast_1">বর্তমানে শুধুমাত্র একটি সিমকার্ড আছে</string>
+    <string name="qs_data_switch_text_1">সিম ১</string>
+    <string name="qs_data_switch_text_2">সিম ২</string>
+    <string name="qs_data_switch_changed_1">ডেটা কার্ড সিম ১ এ নিয়োজিত হয়েছে.</string>
+    <string name="qs_data_switch_changed_2">ডেটা মোড সিম ২ তে নিয়োজিত হয়েছে</string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">ফ্রেম পার সেকেন্ড তথ্য</string>
+    <string name="accessibility_quick_settings_fpsinfo_off">FPS তথ্য বন্ধ</string>
+    <string name="accessibility_quick_settings_fpsinfo_on">FPS তথ্য চালু</string>
+    <!-- FPS view text placeholder -->
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">সিপিইউ সম্পর্কিত তথ্য</string>
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">স্টপ ডট দেখান</string>
+    <string name="screenrecord_stopdot_summary">সরানোর জন্য বেশীক্ষণ চেপে ধরুন</string>
+    <string name="screenrecord_lowquality_label">নিম্নতর মান</string>
+    <string name="screenrecord_lowquality_summary">ছোট আকারের ফাইলের জন্য</string>
+    <string name="screenrecord_longer_timeout_switch_label">বৃহত্তর আকারের ফাইলের সীমা</string>
+    <string name="screenrecord_longer_timeout_switch_summary">রেকর্ডের সাইজ ১৫ জিবি পর্যন্ত সীমাবদ্ধ রাখুন</string>
+    <string name="screenrecord_skip_time_label">টাইমার উহ্য রাখুন</string>
+    <string name="screenrecord_skip_time_summary">৩ সেকেন্ডের অপেক্ষা বাতিল করুন</string>
+    <string name="screenrecord_hevc_switch_label">HEVC সক্ষম করুন৷</string>
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">ব্যবহৃত</string>
+    <string name="usage_data_default_suffix">ডেটা</string>
+    <string name="usage_wifi_default_suffix">ওয়াইফাই</string>
+</resources>

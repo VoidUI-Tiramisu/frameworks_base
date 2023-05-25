@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">Löschen</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">Bildschirmaufzeichnung gelöscht</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Daten Sim-Karte wechseln</string>
+    <string name="qs_data_switch_toast_0">Derzeit ist keine SIM-Karte eingelegt</string>
+    <string name="qs_data_switch_toast_1">Derzeit ist nur eine SIM-Karte eingelegt</string>
+    <string name="qs_data_switch_text_1">Sim1</string>
+    <string name="qs_data_switch_text_2">SIM2</string>
+    <string name="qs_data_switch_changed_1">Datenkarte auf SIM 1 umgeschaltet.</string>
+    <string name="qs_data_switch_changed_2">Datenkarte wurde auf SIM 2 umgestellt.</string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">FPS-Info</string>
+    <string name="accessibility_quick_settings_fpsinfo_off">FPS-Info aus</string>
+    <string name="accessibility_quick_settings_fpsinfo_on">FPS-Info an</string>
+    <!-- FPS view text placeholder -->
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">CPU-Info</string>
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">Zeige Stop-Punkt</string>
+    <string name="screenrecord_stopdot_summary">Gedrückt halten zum Verschieben</string>
+    <string name="screenrecord_lowquality_label">Niedrigere Qualität</string>
+    <string name="screenrecord_lowquality_summary">Für kleinere Dateigrößen</string>
+    <string name="screenrecord_longer_timeout_switch_label">Größere Dateigrößenbegrenzung</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Aufnahmegröße auf 15 GB begrenzen</string>
+    <string name="screenrecord_skip_time_label">Timer überspringen</string>
+    <string name="screenrecord_skip_time_summary">3-Sekunden Wartezeit deaktivieren</string>
+    <string name="screenrecord_hevc_switch_label">HEVC aktivieren</string>
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">gebraucht</string>
+    <string name="usage_data_default_suffix">Daten</string>
+    <string name="usage_wifi_default_suffix">W-lan</string>
+</resources>

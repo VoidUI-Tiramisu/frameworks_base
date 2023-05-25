@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">Видалити</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">Запис екрану видалено</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Змінити картку для передачі даних</string>
+    <string name="qs_data_switch_toast_0">Наразі не вставлено SIM-карту</string>
+    <string name="qs_data_switch_toast_1">Вставлено лише одну SIM-карту</string>
+    <string name="qs_data_switch_text_1">SIM 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">Переключено карту даних на SIM-карту 1.</string>
+    <string name="qs_data_switch_changed_2">Переключено карту даних на SIM-карту 2.</string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">Інформація про FPS</string>
+    <string name="accessibility_quick_settings_fpsinfo_off">Інформацію про FPS вимкнено</string>
+    <string name="accessibility_quick_settings_fpsinfo_on">Інформацію про FPS увімкнено</string>
+    <!-- FPS view text placeholder -->
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">Інформація про ЦП</string>
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">Показувати кнопку зупинки запису</string>
+    <string name="screenrecord_stopdot_summary">Зажміть щоб перемістити її</string>
+    <string name="screenrecord_lowquality_label">Низька якість</string>
+    <string name="screenrecord_lowquality_summary">Для меншого розміру файлу</string>
+    <string name="screenrecord_longer_timeout_switch_label">Обмеження розміру файлу</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Обмежити розмір запису до 15 ГБ</string>
+    <string name="screenrecord_skip_time_label">Пропустити таймер</string>
+    <string name="screenrecord_skip_time_summary">Видалити 3 секундне очікування</string>
+    <string name="screenrecord_hevc_switch_label">Включити HEVC</string>
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">вик.</string>
+    <string name="usage_data_default_suffix">Моб.</string>
+    <string name="usage_wifi_default_suffix">Wi-Fi</string>
+</resources>

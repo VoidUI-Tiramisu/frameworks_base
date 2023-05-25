@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">Sil</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">Ekran kaydı silindi</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Veri kartını değiştir</string>
+    <string name="qs_data_switch_toast_0">Şu anda SIM kart takılı değil</string>
+    <string name="qs_data_switch_toast_1">Şu anda yalnızca bir SIM kart takılı</string>
+    <string name="qs_data_switch_text_1">SIM 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">Veri kartı SIM 1\'e değiştirildi.</string>
+    <string name="qs_data_switch_changed_2">Veri kartı SIM 2\'ye değiştirildi.</string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">FPS Bilgisi</string>
+    <string name="accessibility_quick_settings_fpsinfo_off">FPS Bilgisi kapalı</string>
+    <string name="accessibility_quick_settings_fpsinfo_on">FPS Bilgisi</string>
+    <!-- FPS view text placeholder -->
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">İşlemci bilgisi</string>
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">Durdurma noktasını göster</string>
+    <string name="screenrecord_stopdot_summary">Taşımak için basılı tutun</string>
+    <string name="screenrecord_lowquality_label">Düşük kalite</string>
+    <string name="screenrecord_lowquality_summary">Daha küçük dosya boyutu için</string>
+    <string name="screenrecord_longer_timeout_switch_label">Daha büyük dosya boyutu sınırı</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Kayıt boyutunu 15 GB ile sınırlayın</string>
+    <string name="screenrecord_skip_time_label">Zamanlayıcıyı atla</string>
+    <string name="screenrecord_skip_time_summary">3 saniye beklemeyi kaldırın</string>
+    <string name="screenrecord_hevc_switch_label">HEVC\'yi etkinleştir</string>
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">kullanılmış</string>
+    <string name="usage_data_default_suffix">Veri</string>
+    <string name="usage_wifi_default_suffix">Wifi</string>
+</resources>

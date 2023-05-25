@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">حذف</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">ضبط صفحه حذف شد</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">سوئیچ کارت داده</string>
+    <string name="qs_data_switch_toast_0">در حال حاضر سیم کارتی وارد نشده است</string>
+    <string name="qs_data_switch_toast_1">در حال حاضر فقط یک سیم کارت وارد شده است</string>
+    <string name="qs_data_switch_text_1">سیم 1</string>
+    <string name="qs_data_switch_text_2">سیم 2</string>
+    <string name="qs_data_switch_changed_1">کارت داده را به سیم 1 تغییر داد.</string>
+    <string name="qs_data_switch_changed_2">کارت داده را به سیم 2 تغییر داد.</string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">اطلاعات FPS</string>
+    <string name="accessibility_quick_settings_fpsinfo_off">اطلاعات FPS خاموش است</string>
+    <string name="accessibility_quick_settings_fpsinfo_on">اطلاعات FPS روشن است</string>
+    <!-- FPS view text placeholder -->
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">اطلاعات CPU</string>
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">نقطه توقف را نشان دهید</string>
+    <string name="screenrecord_stopdot_summary">برای جابجایی آن را فشار دهید</string>
+    <string name="screenrecord_lowquality_label">کیفیت پایین تر</string>
+    <string name="screenrecord_lowquality_summary">برای اندازه فایل کوچکتر</string>
+    <string name="screenrecord_longer_timeout_switch_label">محدودیت حجم فایل بیشتر</string>
+    <string name="screenrecord_longer_timeout_switch_summary">حجم ضبط را به 15 گیگابایت محدود کنید</string>
+    <string name="screenrecord_skip_time_label">رد شدن از تایمر</string>
+    <string name="screenrecord_skip_time_summary">3 ثانیه انتظار را بردارید</string>
+    <string name="screenrecord_hevc_switch_label">HEVC را فعال کنید</string>
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">استفاده شده</string>
+    <string name="usage_data_default_suffix">داده ها</string>
+    <string name="usage_wifi_default_suffix">وای فای</string>
+</resources>

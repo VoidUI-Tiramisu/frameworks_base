@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">Vymazat</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">Záznam obrazovky byl smazán</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Přepnout datovou kartu</string>
+    <string name="qs_data_switch_toast_0">Momentálně není vložena žádná SIM karta</string>
+    <string name="qs_data_switch_toast_1">V současné době je vložena pouze jedna SIM karta</string>
+    <string name="qs_data_switch_text_1">SIM 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">Přepnuta datová karta na SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Přepnuta datová karta na SIM 2.</string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">Informace o FPS</string>
+    <string name="accessibility_quick_settings_fpsinfo_off">Informace o FPS vypnuty</string>
+    <string name="accessibility_quick_settings_fpsinfo_on">Informace o FPS zapnuty</string>
+    <!-- FPS view text placeholder -->
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">Informace o CPU</string>
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">Zobrazit stop tečku</string>
+    <string name="screenrecord_stopdot_summary">Dlouhým stisknutím jej přesunete</string>
+    <string name="screenrecord_lowquality_label">Nižší kvalita</string>
+    <string name="screenrecord_lowquality_summary">Pro menší velikost souboru</string>
+    <string name="screenrecord_longer_timeout_switch_label">Větší limit velikosti souboru</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Omezte velikost záznamu na 15 GB</string>
+    <string name="screenrecord_skip_time_label">Přeskočit časovač</string>
+    <string name="screenrecord_skip_time_summary">Odstraňte 3 sekundové čekání</string>
+    <string name="screenrecord_hevc_switch_label">Povolit HEVC</string>
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">použitý</string>
+    <string name="usage_data_default_suffix">Data</string>
+    <string name="usage_wifi_default_suffix">Wi-Fi</string>
+</resources>

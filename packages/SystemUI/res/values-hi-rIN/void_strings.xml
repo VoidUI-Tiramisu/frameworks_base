@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">मिटाना</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">स्क्रीन रिकॉर्डिंग मिटाई गई</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">डेटा कार्ड स्विच करें</string>
+    <string name="qs_data_switch_toast_0">वर्तमान में कोई सिम कार्ड नहीं डाला गया है</string>
+    <string name="qs_data_switch_toast_1">वर्तमान में केवल एक सिम कार्ड डाला गया है</string>
+    <string name="qs_data_switch_text_1">सिम 1</string>
+    <string name="qs_data_switch_text_2">सिम 2</string>
+    <string name="qs_data_switch_changed_1">डेटा कार्ड को सिम 1 में स्विच किया गया।</string>
+    <string name="qs_data_switch_changed_2">डेटा कार्ड को सिम 2 पर स्विच किया गया।</string>
+    <!-- FPS Info tile -->
+    <string name="quick_settings_fpsinfo_label">एफपीएस जानकारी</string>
+    <string name="accessibility_quick_settings_fpsinfo_off">एफपीएस जानकारी बंद</string>
+    <string name="accessibility_quick_settings_fpsinfo_on">एफपीएस जानकारी चालू</string>
+    <!-- FPS view text placeholder -->
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">सीपीयू जानकारी</string>
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">बंद करने के लिए बिंदु दिखाएं</string>
+    <string name="screenrecord_stopdot_summary">हटाने के लिए दबाएं रखे </string>
+    <string name="screenrecord_lowquality_label">लोअर क्वालिटी </string>
+    <string name="screenrecord_lowquality_summary">छोटी फाइल साइज के लिए</string>
+    <string name="screenrecord_longer_timeout_switch_label">बड़े फाइल साइज के लिए</string>
+    <string name="screenrecord_longer_timeout_switch_summary">रिकॉर्डिंग को 15 जीबी तक रखे </string>
+    <string name="screenrecord_skip_time_label">टाइमर हटाएं </string>
+    <string name="screenrecord_skip_time_summary">3 सेकंड वेटिंग को हटाएं </string>
+    <string name="screenrecord_hevc_switch_label">एचईवीसी सक्षम करें</string>
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">इस्तेमाल किया गया</string>
+    <string name="usage_data_default_suffix">आंकड़े</string>
+    <string name="usage_wifi_default_suffix">Wifi</string>
+</resources>
