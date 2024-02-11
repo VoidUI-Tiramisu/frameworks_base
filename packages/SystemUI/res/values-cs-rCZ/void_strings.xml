@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">Odstranit</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">Nahrávání obrazovky odstraněno</string>
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">Zobrazit stop tečku</string>
+    <string name="screenrecord_stopdot_summary">Longpress pro přesun</string>
+    <string name="screenrecord_lowquality_label">Nižší kvalita</string>
+    <string name="screenrecord_lowquality_summary">Pro menší velikost souboru</string>
+    <string name="screenrecord_longer_timeout_switch_label">Větší limit velikosti souboru</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Omezení velikosti záznamu na 15 GB</string>
+    <string name="screenrecord_skip_time_label">Přeskočit časovač</string>
+    <string name="screenrecord_skip_time_summary">Odstranění 3sekundového čekání</string>
+    <string name="screenrecord_hevc_switch_label">Povolení HEVC</string>
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">použité</string>
+    <string name="usage_data_default_suffix">Data</string>
+    <string name="usage_wifi_default_suffix">Wi-Fi</string>
+</resources>

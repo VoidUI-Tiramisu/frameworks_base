@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- PowerOffAlarmService -->
+    <string name="notification_channel_poweroff_alarm">전원 끄기 알람</string>
+    <string name="poweroff_alarm_title">전원 끄기 알람 설정</string>
+    <string name="poweroff_alarm_body">알람이 감지되어 예정된 시간 2분 전에 기기의 전원이 켜집니다.</string>
+</resources>
